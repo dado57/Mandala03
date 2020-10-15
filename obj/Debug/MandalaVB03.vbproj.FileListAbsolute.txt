@@ -1,0 +1,11 @@
+C:\Users\Corrado\source\repos\MandalaVB03\obj\Debug\MandalaVB03.vbprojAssemblyReference.cache
+C:\Users\Corrado\source\repos\MandalaVB03\obj\Debug\MandalaVB03.vbproj.GenerateResource.cache
+C:\Users\Corrado\source\repos\MandalaVB03\obj\Debug\MandalaVB03.vbproj.CoreCompileInputs.cache
+C:\Users\Corrado\source\repos\MandalaVB03\bin\Debug\Mandala.exe
+C:\Users\Corrado\source\repos\MandalaVB03\bin\Debug\Mandala.pdb
+C:\Users\Corrado\source\repos\MandalaVB03\bin\Debug\Mandala.xml
+C:\Users\Corrado\source\repos\MandalaVB03\obj\Debug\Mandala.Form1.resources
+C:\Users\Corrado\source\repos\MandalaVB03\obj\Debug\Mandala.Resources.resources
+C:\Users\Corrado\source\repos\MandalaVB03\obj\Debug\Mandala.exe
+C:\Users\Corrado\source\repos\MandalaVB03\obj\Debug\Mandala.xml
+C:\Users\Corrado\source\repos\MandalaVB03\obj\Debug\Mandala.pdb

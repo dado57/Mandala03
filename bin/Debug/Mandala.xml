@@ -1,0 +1,155 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Mandala
+</name>
+</assembly>
+<members>
+<member name="T:Mandala.My.Resources.Resources">
+<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member>
+<member name="P:Mandala.My.Resources.Resources.ResourceManager">
+<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member>
+<member name="P:Mandala.My.Resources.Resources.Culture">
+<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member>
+<member name="T:Mandala.Form1.PolarF">
+ <summary>
+ Struttura Coordinate Polari
+ </summary>
+</member>
+<member name="T:Mandala.Form1.Single3">
+ <summary>
+ Struttura 3 Single
+ </summary>
+</member>
+<member name="T:Mandala.Form1.LineF">
+ <summary>
+ Struttura Linea 
+ </summary>
+</member>
+<member name="M:Mandala.Form1.CreaPolar(System.Int32)">
+ <summary>
+ Crea una lista di PolarF (punti in coodinate polari)
+ e chiama Mandala
+ </summary>
+ <param name="NumeroPunti"></param>
+</member>
+<member name="M:Mandala.Form1.PMiMaMe(System.Collections.Generic.List{Mandala.Form1.PolarF})">
+ <summary>
+ Ritorna .Min .Max .Med di L
+ </summary>
+ <param name="Po">List of PolarF</param>
+ <returns>list of double</returns>
+</member>
+<member name="M:Mandala.Form1.CallMandala">
+ <summary>
+ Chiamata per Mandala se gDisegna=True
+ </summary>
+</member>
+<member name="M:Mandala.Form1.Mandala(System.Object)">
+ <summary>
+ "DISEGNO PRINCIPALE - MAIN DRAWING "
+ </summary>
+</member>
+<member name="M:Mandala.Form1.RandColor">
+ <summary>
+ Ritorna colore random tra 10 e 255 con trasparenza HSB_Trasp
+ </summary>
+ <returns>Colore</returns>
+</member>
+<member name="M:Mandala.Form1.RandColorCT(System.Object)">
+ <summary>
+ Crea colore random con trasparenza
+ </summary>
+ <param name="T">Trasparenza tra 0 e 1</param>
+ <returns></returns>
+</member>
+<member name="M:Mandala.Form1.Rand2Color(System.Single,System.Drawing.Color,System.Drawing.Color)">
+ <summary>
+ Ritorna colore random tra 2 colori
+ </summary>
+ <returns>Colore</returns>
+</member>
+<member name="M:Mandala.Form1.ContrastaColore(System.Drawing.Color)">
+ <summary>
+ Ritorna un colore che contrasta rispetto al colore RGB 
+ per vedere il testo sulle label colorate
+ </summary>
+ <param name="RGB"></param>
+ <returns>Colore</returns>
+</member>
+<member name="M:Mandala.Form1.CreaRandPolar(System.Double,System.Double,System.Single,System.Single)">
+ <summary>
+ Crea punto random tra RAGGIO dMin e dMax e tra ANGOLO aMin e aMax
+ </summary>
+ <param name="dMin">Misura</param>
+ <param name="dMax">Misura</param>
+ <param name="aMin">Radianti</param>
+ <param name="aMax">Radianti</param>
+ <returns>Coordinate polari</returns>
+</member>
+<member name="M:Mandala.Form1.CartFromPolar(System.Drawing.PointF,Mandala.Form1.PolarF)">
+ <summary>
+ Ottiene Punto in coordinate cartesiane da coordinate polari
+ </summary>
+ <param name="pP">Punto in coordinate polari</param>
+ <param name="pCentro">Punto centrale in coordinate cartesiane</param>
+ <returns></returns>
+</member>
+<member name="M:Mandala.Form1.Ruota(System.Drawing.PointF,Mandala.Form1.PolarF,System.Single)">
+ <summary>
+ Ruota Punto P dell'angolo Ang rispetto al punto pCentro
+ </summary>
+ <param name="cCentro">Coordinate Cartesiane</param>
+ <param name="P">Coordinate Polari</param>
+ <param name="Ang">Radianti</param>
+ <returns>Punto in coordinate Cartesiane</returns>
+</member>
+<member name="M:Mandala.Form1.Specchia(System.Drawing.PointF,Mandala.Form1.PolarF,System.Single)">
+ <summary>
+ Specchia il punto P rispetto al punto pCentro dell'angolo Ang
+ </summary>
+ <param name="cCentro">Coordinate Cartesiane</param>
+ <param name="P">Coordinate Polari</param>
+ <param name="Ang">Radianti</param>
+ <returns>Punto in coordinate Cartesiane</returns>
+</member>
+<member name="M:Mandala.Form1.PolarFromCart(System.Drawing.PointF,System.Drawing.PointF)">
+ <summary>
+ Ottiene le coordinate Polari date le coordinate Cartesiane di un punto P rispetto al punto pCentro
+ </summary>
+ <param name="cCentro">coordinate Cartesiane</param>
+ <param name="P">coordinate Cartesiane</param>
+ <returns>coordinate Polari</returns>
+</member>
+<member name="M:Mandala.Form1.CreaLineaGradiente(System.Drawing.PointF,Mandala.Form1.PolarF,Mandala.Form1.PolarF,System.Int32)">
+ <summary>
+ Ritorna una linea da 2 punti PolarF (2punti cartesiani) 
+ Elaborata con parametri Moltiplicazione,Posizione e Angolo
+ </summary>
+ <param name="cCentro">Punto cartesiano del Centro</param>
+ <param name="pP1">Punto 1 Polare</param>
+ <param name="pP2">Punto 2 Polare</param>
+ <returns>Linea in coordinate Cartesiane</returns>
+</member>
+<member name="M:Mandala.Form1.RuotaP1attP0diAng(System.Drawing.PointF,System.Drawing.PointF,System.Single)">
+ <summary>
+ Ruota il punto P1 attorno al punto P0 dell'angolo Ang
+ </summary>
+ <param name="P1">coordinate Cartesiane</param>
+ <param name="P0">coordinate Cartesiane</param>
+ <param name="Ang">Radianti</param>
+ <returns>coordinate Cartesiane</returns>
+</member>
+</members>
+</doc>

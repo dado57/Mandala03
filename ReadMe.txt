@@ -1,4 +1,4 @@
-# program name Mandala (MandalaVB03)
+program name Mandala (MandalaVB03)
 author name  Dado57
 Create shapes, with circular repetition and MANDALA-like mirroring
 Allows for stretching and positioning of the last

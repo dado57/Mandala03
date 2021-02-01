@@ -2,6 +2,8 @@
 
 # author name  Dado57
 
+Link https://youtu.be/GDbrYm4QdlY
+
 # ENGLISH
 Create shapes, with circular repetition and MANDALA-like mirroring
 Allows for stretching and positioning of the last
